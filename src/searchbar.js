@@ -28,7 +28,7 @@ export default function SearchBar() {
 
     useEffect(() => {
         getSearchResults();
-       
+        dispatch({type: 'CURR_MOVIE', payload: movie})
     }, [movie]);
 
     
@@ -55,10 +55,10 @@ export default function SearchBar() {
             }
             return e;
         })
-        setSearchResult(data);
+       
 
         
-        passSearchResults(searchResult);
+        passSearchResults(data);
         }
       }
 

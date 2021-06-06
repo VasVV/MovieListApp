@@ -1,13 +1,14 @@
 .movie-card-full {
     position: absolute;
-    top: 25vh;
+    top: 5vh;
     left: 25vw;
     right: 25vw;
-    bottom: 9vh;
+    padding: 10px;
+    max-height: fit-content;
     background-color: white;
     display: flex;
     flex-direction: column;
-
+    max-width: fit-content;
 }
 
 .movie-card-full__info {
@@ -18,13 +19,32 @@
 
 .movie-card-full__description {
     max-width: 35%;
+    font-size: 0.8vw;
+    margin-left: 30px
 }
-
-/*
-.movie-card-full__description {
-    flex-grow: 1;
+.movie-card-full__description__release-date {
+    margin-top:0
 }
 
 .movie-card-full__similar-movies {
-    flex-grow: 1;
-} */
+    margin-left: 30px;
+    font-size: 0.8vw;
+}
+
+
+.movie-card-full__similar-movies__header {
+    margin-top: 0
+}
+
+.movie-card-full__similar-movies__list {
+    list-style-type: none;
+    padding-left: 0
+}
+
+.movie-card-full__similar-movies__list > li {
+    margin-top: 10px
+}
+
+.movie-card-full__add-to-favs {
+    margin-top: 20px
+}

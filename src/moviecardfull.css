@@ -1,0 +1,30 @@
+.movie-card-full {
+    position: absolute;
+    top: 25vh;
+    left: 25vw;
+    right: 25vw;
+    bottom: 9vh;
+    background-color: white;
+    display: flex;
+    flex-direction: column;
+
+}
+
+.movie-card-full__info {
+    display: flex;
+    flex-direction: row;
+    
+}
+
+.movie-card-full__description {
+    max-width: 35%;
+}
+
+/*
+.movie-card-full__description {
+    flex-grow: 1;
+}
+
+.movie-card-full__similar-movies {
+    flex-grow: 1;
+} */

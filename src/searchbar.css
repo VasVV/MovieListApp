@@ -1,0 +1,10 @@
+.search-bar {
+    width: 80%;
+    
+}
+
+.search-bar__input {
+    border: 1px solid black;
+    width: 100%
+}
+

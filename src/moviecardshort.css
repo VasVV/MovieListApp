@@ -1,0 +1,40 @@
+.movie-card-short {
+    display: flex;
+    flex-direction: column;
+    width: 20%;
+    height: 20%;
+    margin: 30px
+}
+
+.movie-card-short__header {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-bottom: 20px;
+}
+
+.movie-card-short__header__name {
+    font-size: 2vw;
+    text-align: center;
+}
+
+.movie-card-short__desc {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.movie-card-short__desc__img {
+    max-width: 100%;
+    height: auto;
+}
+
+.movie-card-short__desc__text {
+    text-align: center;
+}
+
+
+.inner-modal {
+   position: absolute;
+   width: 20%
+}

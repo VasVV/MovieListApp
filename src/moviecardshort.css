@@ -19,8 +19,11 @@
 .movie-card-short__header__name {
     font-size: 2vw;
     text-align: center;
-    min-width: 100% !important;
-    min-height: 90px;
+    /* min-width: 100% !important;
+    min-height: 90px; */
+    height: 200px;
+    max-height: 200px;
+    margin-bottom: 40px;
 }
 
 .movie-card-short__desc {
@@ -32,8 +35,15 @@
 }
 
 .movie-card-short__desc__img {
-    max-width: 100%;
-    height: auto;
+   min-height: inherit !important;
+   max-height: inherit !important;
+   width: 100%;
+    
+}
+
+.movie-card-short__header_img-container {
+    min-height: 40vh !important;
+    max-height: 40vh !important;
     margin-bottom: 20px ;
 }
 
@@ -53,4 +63,9 @@
 
 .movie-card-short__header__addtofavs {
     margin-bottom: 20px !important;
+    width: 100% !important;
+}
+
+.movie-card-short__header_genres {
+    min-height: 60px;
 }

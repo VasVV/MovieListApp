@@ -29,6 +29,7 @@
 .movie-card-full__similar-movies {
     margin-left: 30px;
     font-size: 0.8vw;
+    margin-right: 20px !important;
 }
 
 
@@ -47,4 +48,10 @@
 
 .movie-card-full__add-to-favs {
     margin-top: 20px
+}
+
+.movie-card-full__poster__img {
+    height: auto;
+    width: 100%;
+    max-height: 55vh !important;
 }

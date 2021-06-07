@@ -1,4 +1,3 @@
-import logo from './logo.svg';
 import './App.css';
 import MovieList from './movielist';
 import SearchBar from './searchbar';
@@ -19,7 +18,7 @@ function App() {
     
 
     useEffect(() => {
-        console.log(lstorage);
+        
         if (lstorage.length > 0) {
         lstorage.map(e => {
           dispatch({type: 'ADD_TO_FAVS', payload: e})

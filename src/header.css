@@ -10,4 +10,7 @@
     font-size: 30px;
 }
 
+.header_elem > a {
+    text-decoration: none;
+}
 

@@ -96,7 +96,9 @@ export default function MovieCardShort({
             <h1 className='movie-card-short__header__name'>{movieName}</h1>
                 <p className='movie-card-short__header_genres'>{genres?genres.join(', '): <br />}</p>
                 <Button fullWidth className='movie-card-short__header__addtofavs' variant="contained" color={isFaved.length > 0 ? 'secondary' : 'primary'} onClick={() => addRemoveFromFavs()}>{isFaved.length > 0 ?  'Remove from' : 'Add to'} Favourites</Button>
-                <img src={!moviePoster.includes('null')?moviePoster:'https://via.placeholder.com/200x300.png?text=No+Poster'} className='movie-card-short__desc__img' />
+                <div className='movie-card-short__header_img-container'>
+                    <img src={!moviePoster.includes('null')?moviePoster:'https://via.placeholder.com/500x750.jpg?text=No+Poster'} className='movie-card-short__desc__img' />
+                </div>
                 <Button variant="contained" color="primary" onClick={() => openModal()} fullWidth>See more info</Button>
             </div>
 
